@@ -1,0 +1,39 @@
+{
+  "name": "printerguy",
+  "version": "0.1.1",
+  "description": "Web browser printing with node.js, websockets, electron and ESC/POS communication.",
+  "homepage": "https://github.com/mayconbordin/printerguy",
+  "author": "Maycon Bordin <mayconbordin@gmail.com>",
+  "license": "MIT",
+  "main": "printerguy.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mayconbordin/printerguy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mayconbordin/printerguy/issues"
+  },
+  "keywords": [
+    "printer",
+    "serialport",
+    "escpos",
+    "usb"
+  ],
+  "dependencies": {
+    "usb": "*",
+    "iconv-lite": "*",
+    "serialport": "*",
+    "ink-docstrap": "^0.3.0-0"
+  },
+  "devDependencies": {
+    "nodeunit": "*",
+    "jsdoc": "*",
+    "grunt": "*",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-jsdoc": "*"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  }
+}
